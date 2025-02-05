@@ -25,7 +25,7 @@ where:
 - **L(j)** is the number of outbound links of **j**.
 - **0.85** is the damping factor.
 
-Initial rank value of each node will be 1. 
+Initial rank value of each node will be 1/N, where N is the number of nodes. 
 
 ## Instructions
 1. Implement the function `compute_pagerank` in `pagerank.py`.
